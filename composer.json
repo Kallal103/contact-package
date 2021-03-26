@@ -1,0 +1,19 @@
+{
+    "name": "kallal/contact",
+    "description": "This is my first package developemnt. It will be a simple email sending package and will store the email in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kallalnsu103",
+            "email": "kallal.das@northsouth.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kallal\\Contact\\": "src/"
+        }
+    }
+}
